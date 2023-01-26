@@ -1,0 +1,229 @@
+.category li {
+    list-style: none;
+    padding: 3px 10px;
+    color: rgb(15, 13, 13);
+    font-weight: bolder;
+    font-size: 13px;
+    transition: 0.3s ease-in-out;
+    cursor: pointer;
+}
+.container{
+    height: 60px;
+    background-color: white;
+}
+.category li:hover {
+    text-decoration: underline;
+    color: #ff006f;
+}
+
+.brand-logo {
+    width: 50px;
+    height: 35px;
+    padding: 0 45px 0 0;
+}
+
+.category span {
+    color: #ff006f;
+    font-size: 8px;
+    font-weight: bolder;
+    position: relative;
+    right: 2px;
+    bottom: 10px;
+}
+
+header {
+    min-height: 60px;
+    position: fixed;
+    top:0;
+    left:0;
+    background-color: white;
+}
+
+.left {
+
+    margin-left: 30px;
+
+}
+
+.right {
+    font-size: 10px;
+    font-weight: bolder;
+    margin-left: 200px;
+    width: 760px;
+}
+
+.right input {
+    width: 400px;
+    padding: 8px 20px;
+    outline: none;
+    border: 0.5px solid lightgray;
+    background-color: rgba(211, 211, 211, 0.205);
+}
+
+.right div {
+    cursor: pointer;
+    padding: 3px 20px;
+}
+
+.right div i {
+    font-size: 14px;
+
+}
+
+.right div:hover {
+    color: #ff006f
+}
+
+.bag {
+    position: relative;
+
+}
+
+.advertise-section-1 {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    flex-direction: column;
+    justify-content: center;
+}
+.offer img{
+    width: 400px;
+   position: fixed;
+   right:-366px;
+   top:200px;
+}
+.advertise-image-1 {
+    width: 90vw;
+    margin: 2vh 0;
+    cursor: pointer;
+}
+.advertise-image-1::after{
+    content: "";
+    background: url("/apparels-mens.png") no-repeat center center;
+    background-size: cover;
+    z-index: 1;
+    position: relative;
+    width: 100%;
+}
+
+.advertise-image-2 {
+    width: 95vw;
+    margin: 1vh 0;
+}
+
+.itemImg {
+    width: 12vw;
+    margin: 10px 11px;
+}
+
+.advertise-section-2 {
+    width: 90vw;
+    margin: 0 auto;
+}
+
+.add-container {
+    background-color: rgba(128, 128, 128, 0.053);
+}
+.apparels{
+    width:334px;
+    height: 370px;
+    display: none;
+
+    
+}
+.apparels2{
+    width:204px;
+    height: 370px;
+    display: none;
+}
+.apparels3{
+    width:204px;
+    height: 370px;
+    display: none;
+    position: relative;
+    right: -65px;
+}
+.apparels4{
+    width:204px;
+    height: 370px;
+    display: none;
+    position: relative;
+    right: -123px;
+}
+.apparels5{
+    width:204px;
+    height: 370px;
+    display: none;
+    position: relative;
+    right: -180px;
+}
+.studio{
+    width:400px;
+    height: 500px;
+    display: none;
+    position: relative;
+    right: -250px;
+}
+
+.menu{
+    display: flex;
+    position: relative;
+    right:500px;
+    bottom: 20px;
+}
+@media (max-width: 1050px) {
+    body {
+        /* background-color: rgb(159, 148, 148); */
+    }
+
+    header nav {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin: 0 auto;
+    }
+
+    .container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0 auto;
+    }
+    .category li{
+        padding:3px 8px;
+        font-size: 10px;
+
+    }
+    .left{
+        flex-direction: column;
+        margin: 5px 0;
+    }
+    .right input{
+        width: 250px;
+        padding: 3px 0;
+    }
+    ::placeholder{
+        font-size: 9px;
+    }
+    .right div {
+        font-size: 6px;
+        padding: 0 7px;
+    }
+    .right div i{
+        font-size: 10px;
+    }
+    .right{
+        position: relative;
+        right:80px;
+        padding-top: 5px;
+        margin-left: 500px;
+    }
+    .category span{
+        font-size: 6px;
+    }
+}
+.footer img{
+    width: 1000px;
+    display: block;
+    margin: 5px auto;
+}
